@@ -1664,7 +1664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5caae4a96039cf4e80db45a2c3af173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  rigidbody: {fileID: 919132149481796933}
+  moveSpeed: 500
+  jumpForce: 10
 --- !u!1 &919132149550603706
 GameObject:
   m_ObjectHideFlags: 0
